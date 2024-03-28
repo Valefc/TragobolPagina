@@ -206,3 +206,35 @@ footer{
     cursor: pointer;
     border-radius: 10%;
 }
+
+.catalogo img{
+    width: 150px;
+    height: 150px;
+    border: 1.3px solid  silver;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    margin: 10px;
+    text-align: left;
+    min-height: 200px; /* Ajusta según sea necesario */
+    display: flex;
+    flex-direction: column;
+}
+
+.item img {
+    width: 150px; /* Ajusta según sea necesario */
+    height: auto;
+}
+
+.foto2 {
+    margin-left: 100px;
+}
